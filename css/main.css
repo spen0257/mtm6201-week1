@@ -29,6 +29,7 @@ header{
 img{
     width: 150px;
     height: auto;
+    float: left;
 }
 
 dl {
@@ -37,3 +38,13 @@ dl {
     display: 0;
     text-align: left;
 }
+
+/* .container{
+  width: 500px;
+  margin: 0 auto;
+}
+img{
+  width: 200px;
+  float: right;
+}
+ */
