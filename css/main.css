@@ -1,3 +1,39 @@
 body{
-    background-color: aquamarine;
+    background-color:#305c578b; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+header{
+    background-color: rgba(41, 49, 68, 0.821);
+}
+header{
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.wrapper{
+    max-width: 150;      
+    /* width: 1000px; */
+    margin:0 auto;
+    background-color: rgb(213, 213, 213);
+    padding: 8px;
+}
+
+.container{
+    position: relative;
+    top: 10px;
+    float: left;
+}
+
+img{
+    width: 150px;
+    height: auto;
+}
+
+dl {
+    list-style: none;
+    padding: 0;
+    display: 0;
+    text-align: left;
 }
