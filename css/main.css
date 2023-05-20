@@ -10,41 +10,31 @@ header{
     color: whitesmoke;
     text-align: center;
 }
-
-
-.wrapper{
-    max-width: 150;      
-    /* width: 1000px; */
+div.wrapper{
+    max-width: 150px;      
     margin:0 auto;
     background-color: rgb(213, 213, 213);
     padding: 8px;
+    max-width: 800px;
 }
 
-.container{
-    position: relative;
-    top: 10px;
+div.container{
     float: left;
+    padding: ;
+   
 }
 
-img{
-    width: 150px;
+img.mp{
+    max-width: 150px;
     height: auto;
     float: left;
+    margin: 1rem 1rem 1rem 0;
 }
 
-dl {
-    list-style: none;
-    padding: 0;
-    display: 0;
-    text-align: left;
+div.d-container{
+    padding: 1rem;
+    clear: left; 
+    background-color: rgba(41, 49, 68, 0.821);
 }
-
-/* .container{
-  width: 500px;
-  margin: 0 auto;
-}
-img{
-  width: 200px;
-  float: right;
-}
- */
+dd{
+    margin-left: 0;}
